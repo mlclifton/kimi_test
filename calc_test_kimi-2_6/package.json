@@ -1,0 +1,19 @@
+{
+  "name": "simple-calculator",
+  "version": "1.0.0",
+  "description": "A simple terminal-based calculator tool",
+  "main": "dist/calculator.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "ts-node src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
